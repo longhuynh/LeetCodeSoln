@@ -40,10 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="26.RemoveDuplicate.cs" />
-    <Compile Include="88.MergeSortedArray.cs" />
+    <Compile Include="026.RemoveDuplicate.cs" />
+    <Compile Include="088.MergeSortedArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="83.RemoveDuplicatesFromSortedList.cs" />
+    <Compile Include="083.RemoveDuplicatesFromSortedList.cs" />
+    <Compile Include="344.ReverseString.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
