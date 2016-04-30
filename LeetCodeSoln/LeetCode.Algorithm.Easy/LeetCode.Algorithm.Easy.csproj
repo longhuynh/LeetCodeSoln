@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="026.RemoveDuplicate.cs" />
     <Compile Include="088.MergeSortedArray.cs" />
+    <Compile Include="292.NimGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="083.RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="344.ReverseString.cs" />

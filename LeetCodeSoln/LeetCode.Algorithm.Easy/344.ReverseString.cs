@@ -10,7 +10,7 @@ using System;
 
 namespace LeetCode.Algorithm.Easy
 {
-    class ReverseString
+    public class ReverseString
     {
         public string ReverseAString(string s)
         {
