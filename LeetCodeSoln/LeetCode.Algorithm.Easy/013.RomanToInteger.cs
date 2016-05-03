@@ -4,9 +4,6 @@
  * Tags: Brainteaser
  */
 
-using System;
-using System.Collections.Generic;
-
 namespace LeetCode.Algorithm.Easy
 {
     public class RomanToInteger
@@ -17,9 +14,8 @@ namespace LeetCode.Algorithm.Easy
             if (string.IsNullOrEmpty(s)) return toInt;
 
             char[] charArray = s.ToCharArray();
-            int length = charArray.Length - 1;
 
-            for (int i = length; i >= 0; i--)
+            for (int i = charArray.Length - 1; i >= 0; i--)
             {
                 switch (charArray[i])
                 {
@@ -43,8 +39,6 @@ namespace LeetCode.Algorithm.Easy
                         break;
                     case 'I':
                         toInt += (toInt >= 5 ? -1 : 1); 
-                        break;
-                    default:
                         break;
                 }
             }

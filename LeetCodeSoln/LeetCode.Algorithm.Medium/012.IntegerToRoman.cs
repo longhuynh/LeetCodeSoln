@@ -17,12 +17,12 @@ namespace LeetCode.Algorithm.Medium
         {
             StringBuilder stringBuilder = new StringBuilder();
             int i = 0;
-            while (number > 0 && i < ints.Length)
+            while (number > 0)
             {
                 if (number >= ints[i])
                 {
                     stringBuilder.Append(romans[i]);
-                    number -= ints[i]; // update number
+                    number -= ints[i]; 
                 }
                 else
                 {
@@ -32,16 +32,16 @@ namespace LeetCode.Algorithm.Medium
             return stringBuilder.ToString();
         }
 
-        //public string IntToRoman(int num)
-        //{
-        //    for (int i = 0; i < intDict.length; i++)
-        //    {
-        //        if (intDict[i] <= num)
-        //        {
-        //            return romanDict[i] + intToRoman(num - intDict[i]);
-        //        }
-        //    }
-        //    return ""; // Note the return statement
-        //}
+        public string IntToRoman2(int number)
+        {
+            for (int i = 0; i < ints.Length; i++)
+            {
+                if (ints[i] <= number)
+                {
+                    return romans[i] + IntToRoman2(number - ints[i]);
+                }
+            }
+            return ""; 
+        }
     }
 }
