@@ -19,7 +19,9 @@ namespace LeetCode.Algorithm.Easy
             {
                 stringBuilders[i] = new StringBuilder();
             }
+
             i = 0;
+
             char[] charArray = s.ToCharArray();
             int length = charArray.Length;
 
