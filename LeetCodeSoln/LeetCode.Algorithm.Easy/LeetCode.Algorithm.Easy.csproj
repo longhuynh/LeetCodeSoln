@@ -48,7 +48,7 @@
     <Compile Include="083.RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="344.ReverseString.cs" />
     <Compile Include="007.ReverseInteger.cs" />
-    <Compile Include="ZigZagConversion.cs" />
+    <Compile Include="006.ZigZagConversion.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
