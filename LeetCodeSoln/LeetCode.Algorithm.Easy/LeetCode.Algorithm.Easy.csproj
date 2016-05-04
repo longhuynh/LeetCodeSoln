@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="009.PalindromeNumber.cs" />
     <Compile Include="026.RemoveDuplicate.cs" />
+    <Compile Include="019.RemoveNodeNthFromEnd.cs" />
     <Compile Include="088.MergeSortedArray.cs" />
     <Compile Include="013.RomanToInteger.cs" />
     <Compile Include="292.NimGame.cs" />
