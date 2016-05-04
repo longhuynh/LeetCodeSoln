@@ -15,7 +15,7 @@ namespace LeetCode.Algorithm.Medium
 
         public string IntToRoman(int number)
         {
-            StringBuilder stringBuilder = new StringBuilder();
+            var stringBuilder = new StringBuilder();
             int i = 0;
             while (number > 0)
             {
@@ -26,7 +26,7 @@ namespace LeetCode.Algorithm.Medium
                 }
                 else
                 {
-                    i++; // move to next roman
+                    i++; 
                 }
             }
             return stringBuilder.ToString();

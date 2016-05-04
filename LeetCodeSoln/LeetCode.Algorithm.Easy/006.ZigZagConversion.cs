@@ -12,6 +12,9 @@ namespace LeetCode.Algorithm.Easy
     {
         public string Convert(string s, int numberOfRows)
         {
+            if (numberOfRows == 1)
+                return s;
+
             StringBuilder[] stringBuilders = new StringBuilder[numberOfRows];
             int i = 0;
 

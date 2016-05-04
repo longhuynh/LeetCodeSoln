@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="009.PalindromeNumber.cs" />
     <Compile Include="026.RemoveDuplicate.cs" />
     <Compile Include="088.MergeSortedArray.cs" />
     <Compile Include="013.RomanToInteger.cs" />
