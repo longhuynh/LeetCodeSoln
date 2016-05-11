@@ -45,6 +45,7 @@
     <Compile Include="019.RemoveNodeNthFromEnd.cs" />
     <Compile Include="088.MergeSortedArray.cs" />
     <Compile Include="013.RomanToInteger.cs" />
+    <Compile Include="MaximumDepthOfBinaryTree.cs" />
     <Compile Include="292.NimGame.cs" />
     <Compile Include="172.FactorialTrailingZeroes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
