@@ -24,6 +24,7 @@ namespace LeetCode.Algorithm.Easy
             //    charArray[i] = charArray[length - 1 - i];
             //    charArray[length - 1 - i] = temp;
             //}
+
             // new string(charArray);
             // if (s.Length == 0) 
             //     return s;
