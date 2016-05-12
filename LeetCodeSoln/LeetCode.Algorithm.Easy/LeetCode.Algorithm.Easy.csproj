@@ -47,6 +47,7 @@
     <Compile Include="013.RomanToInteger.cs" />
     <Compile Include="104.DepthOfBinaryTree.cs" />
     <Compile Include="168.ExcelSheetColumnTitle.cs" />
+    <Compile Include="CountNSay.cs" />
     <Compile Include="292.NimGame.cs" />
     <Compile Include="172.FactorialTrailingZeroes.cs" />
     <Compile Include="344.ReverseString.cs" />
