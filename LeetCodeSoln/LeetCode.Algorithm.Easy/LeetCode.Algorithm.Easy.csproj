@@ -44,6 +44,7 @@
     <Compile Include="003.LongestSubstring.cs" />
     <Compile Include="026.RemoveDuplicate.cs" />
     <Compile Include="019.RemoveNodeNthFromEnd.cs" />
+    <Compile Include="027.RemoveElement.cs" />
     <Compile Include="088.MergeSortedArray.cs" />
     <Compile Include="013.RomanToInteger.cs" />
     <Compile Include="104.DepthOfBinaryTree.cs" />
