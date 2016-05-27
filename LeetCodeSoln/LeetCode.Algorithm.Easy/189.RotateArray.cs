@@ -33,13 +33,17 @@ namespace LeetCode.Algorithm.Easy
             int index = 0;
             int tmp1 = items[index]; // the number to write to new index
             for (int i = 0, j = 0; i < length; i++)
-            { // j is the start index of current circle
+            { 
+                // j is the start index of current circle
                 index = (index + k) % length;
-                var tmp2 = items[index]; // save the number at new index
+
+                // save the number at new index
+                var tmp2 = items[index]; 
                 items[index] = tmp1;
                 tmp1 = tmp2;
                 if (index == j)
-                { // circle ends
+                { 
+                    // circle ends
                     index = ++j; // move to next circle
                     tmp1 = items[index];
                 }
