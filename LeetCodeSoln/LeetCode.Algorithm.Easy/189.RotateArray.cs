@@ -2,7 +2,7 @@
  * https://leetcode.com/problems/rotate-array/
  * Write a function that takes a string as input and returns the string reversed.
  * 
- * Tags: String
+ * Tags: Array
  */
 
 
@@ -30,18 +30,18 @@ namespace LeetCode.Algorithm.Easy
 
             int length = items.Length;
             k %= length;
-            int idx = 0;
-            int tmp1 = items[idx]; // the number to write to new index
+            int index = 0;
+            int tmp1 = items[index]; // the number to write to new index
             for (int i = 0, j = 0; i < length; i++)
             { // j is the start index of current circle
-                idx = (idx + k) % length;
-                var tmp2 = items[idx]; // save the number at new index
-                items[idx] = tmp1;
+                index = (index + k) % length;
+                var tmp2 = items[index]; // save the number at new index
+                items[index] = tmp1;
                 tmp1 = tmp2;
-                if (idx == j)
+                if (index == j)
                 { // circle ends
-                    idx = ++j; // move to next circle
-                    tmp1 = items[idx];
+                    index = ++j; // move to next circle
+                    tmp1 = items[index];
                 }
             }
         }
