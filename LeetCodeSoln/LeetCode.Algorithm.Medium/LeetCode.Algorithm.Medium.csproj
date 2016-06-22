@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="150.EvaluateReversePolishNotation.cs" />
+    <Compile Include="215.KthLargestElement.cs" />
     <Compile Include="151.ReverseWordsinaString.cs" />
     <Compile Include="012.IntegerToRoman.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
