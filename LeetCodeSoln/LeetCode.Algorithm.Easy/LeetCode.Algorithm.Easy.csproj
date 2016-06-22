@@ -55,6 +55,7 @@
     <Compile Include="172.FactorialTrailingZeroes.cs" />
     <Compile Include="189.RotateArray.cs" />
     <Compile Include="205.IsomorphicStrings.cs" />
+    <Compile Include="191.NumberOfOneBit.cs" />
     <Compile Include="344.ReverseString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="083.RemoveDuplicatesFromSortedList.cs" />
