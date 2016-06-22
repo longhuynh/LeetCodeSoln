@@ -17,7 +17,7 @@ namespace LeetCode.Algorithm.Easy
         // Start from current index and repeat exactly "length of array" times
         // 1. Calculate new index which is current index move k steps forward
         // If move out of range, just start from beginning again
-        //      newIdx = (curIdx + k ) % len
+        //      newIdx = (currentIndex + k ) % len
         // 2. Circle can be the same, for example, n = 6, k = 2
         // Index will be 0, 2, 4, 0, 2, 4
         // So save the start index of the circle
