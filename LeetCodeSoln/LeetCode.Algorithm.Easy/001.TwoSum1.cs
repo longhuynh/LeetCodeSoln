@@ -10,8 +10,7 @@ using System.Collections.Generic;
 
 namespace LeetCode.Algorithm.Easy
 {
-    public class TwoSumSolutionn
-    {
+    public class TwoSum1    {
         public int[] TwoSum(int[] numbers, int target)
         {
             var dictionary = new Dictionary<int, int>();

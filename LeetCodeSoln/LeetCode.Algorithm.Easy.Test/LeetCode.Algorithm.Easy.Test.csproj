@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ED0E5E6A-C2F2-4ADE-91BC-7FA9E507CEEA}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{E798B660-0A94-45FC-910E-60D4B7DDD69F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LeetCode.Algorithm.Easy</RootNamespace>
-    <AssemblyName>LeetCode.Algorithm.Easy</AssemblyName>
+    <RootNamespace>LeetCode.Algorithm.Easy.Test</RootNamespace>
+    <AssemblyName>LeetCode.Algorithm.Easy.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,36 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="167.TwoSum2.cs" />
-    <Compile Include="001.TwoSum1.cs" />
-    <Compile Include="009.PalindromeNumber.cs" />
-    <Compile Include="003.LongestSubstring.cs" />
-    <Compile Include="026.RemoveDuplicate.cs" />
-    <Compile Include="019.RemoveNodeNthFromEnd.cs" />
-    <Compile Include="027.RemoveElement.cs" />
-    <Compile Include="088.MergeSortedArray.cs" />
-    <Compile Include="013.RomanToInteger.cs" />
-    <Compile Include="104.DepthOfBinaryTree.cs" />
-    <Compile Include="168.ExcelSheetColumnTitle.cs" />
-    <Compile Include="038.CountNSay.cs" />
-    <Compile Include="066.PlusOne.cs" />
-    <Compile Include="292.NimGame.cs" />
-    <Compile Include="172.FactorialTrailingZeroes.cs" />
-    <Compile Include="189.RotateArray.cs" />
-    <Compile Include="205.IsomorphicStrings.cs" />
-    <Compile Include="191.NumberOfOneBit.cs" />
-    <Compile Include="344.ReverseString.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="083.RemoveDuplicatesFromSortedList.cs" />
-    <Compile Include="171.ExcelSheetColumnNumber.cs" />
-    <Compile Include="007.ReverseInteger.cs" />
-    <Compile Include="006.ZigZagConversion.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="058.LengthOfLastWord.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="014.LongestCommonPrefix.cs" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
