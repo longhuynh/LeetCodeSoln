@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="001.TwoSum.cs" />
     <Compile Include="009.PalindromeNumber.cs" />
     <Compile Include="003.LongestSubstring.cs" />
     <Compile Include="026.RemoveDuplicate.cs" />
